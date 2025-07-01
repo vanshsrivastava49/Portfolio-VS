@@ -27,7 +27,7 @@ export const InfoSection = () => {
 			<FloatingButton
 			label='Resume'
 			className='third'
-			href='../public/Vansh_Srivastava_Resume.pdf'
+			href='./Vansh_Srivastava_Resume.pdf'
 			/>
 			<FloatingButton
 			label='Projects'
