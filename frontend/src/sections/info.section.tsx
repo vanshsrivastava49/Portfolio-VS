@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { IoMailOutline } from 'react-icons/io5';
 
 import { FloatingButton } from '../components/floating-button';
@@ -52,6 +52,12 @@ export const InfoSection = () => {
 					href='mailto:srivastavavansh11@gmail.com'
 					icon={<IoMailOutline color='rgb(18, 122, 209)' />}
 					color=' rgb(18, 122, 209,0.7)'
+					aria-label='mail'
+				/>
+				<GlowLink
+					href='https://www.instagram.com/vanshsrivastava49/'
+					icon={<FaInstagram color='rgb(193, 53, 132)' />}
+					color=' rgba(193, 53, 132, 0.7)'
 					aria-label='mail'
 				/>
 			</div>
