@@ -21,8 +21,8 @@ function App() {
 			<MouseTrail />
 			<InfoSection />
 			<AboutMe />
-			<TechStack />
 			<Projects/>
+			<TechStack />
 		</>
 	);
 }

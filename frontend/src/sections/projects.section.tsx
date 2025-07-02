@@ -7,34 +7,45 @@ const projects = [
     heading: 'Featured Projects',
     items: [
       {
-        title: 'Portfolio Website',
-        icon: <FaGithub color='white' />,
-        color: 'rgba(255, 255, 255, 0.4)',
+        title: 'ParkMate',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(74, 127, 232, 0.4)',
+        link: 'https://github.com/vanshsrivastava49/ParkMate',
       },
       {
-        title: 'E-commerce App',
-        icon: <FaGithub color='white' />,
-        color: 'rgba(255, 255, 255, 0.4)',
+        title: 'UniHub',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(236, 60, 230, 0.4)',
+        link: 'https://github.com/vanshsrivastava49/UniHub',
       },
       {
-        title: 'Chat Application',
-        icon: <FaGithub color='white' />,
-        color: 'rgba(255, 255, 255, 0.4)',
+        title: 'CampusBuzz',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(239, 197, 59, 0.4)',
+        link: 'https://campushuzz.vercel.app/',
+      },
+      {
+        title: 'ESGGuardian',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(102, 230, 59, 0.4)',
+        link: 'https://github.com/vanshsrivastava49/ESGGuardian',
       },
     ],
   },
   {
-    heading: 'Mini Projects',
+    heading: 'Chatbot & AI Projects',
     items: [
       {
-        title: 'Weather App',
-        icon: <FaGithub color='white' />,
-        color: 'rgba(255, 255, 255, 0.4)',
+        title: 'CampusBuzz Chatbot',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(239, 197, 59, 0.4)',
+        link: 'https://campusbuzz-chatbot-bp19.onrender.com/',
       },
       {
-        title: 'Todo App',
-        icon: <FaGithub color='white' />,
-        color: 'rgba(255, 255, 255, 0.4)',
+        title: 'Kitchen Sakhi',
+        icon: <FaGithub color="white" />,
+        color: 'rgba(230, 61, 18, 0.4)',
+        link: 'https://github.com/vanshsrivastava49/KitchenSakhi',
       },
     ],
   },
@@ -43,26 +54,27 @@ const projects = [
 export const Projects = () => {
   return (
     <section className="projects-section" id="projects">
-  <div className="projects-grid">
-    {projects.map((projectGroup, index) => (
-      <div key={index}>
-        <p>{projectGroup.heading}</p>
-        <div className="projects-row">
-          {projectGroup.items.map((item, itemIndex) => (
-            <GlowBox
-              key={itemIndex}
-              icon={item.icon}
-              color={item.color}
-              title={item.title}
-            />
-          ))}
-        </div>
+      <div>
+        <SectionTitle title="Dev" subTitle="Work" />
       </div>
-    ))}
-  </div>
-  <div>
-    <SectionTitle title="My" subTitle="Work" />
-  </div>
-</section>
+      <div className="projects-grid">
+        {projects.map((projectGroup, index) => (
+          <div key={index}>
+            <p>{projectGroup.heading}</p>
+            <div className="projects-row">
+              {projectGroup.items.map((item, itemIndex) => (
+                <GlowBox
+                  key={itemIndex}
+                  icon={item.icon}
+                  color={item.color}
+                  title={item.title}
+                  link={item.link}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
