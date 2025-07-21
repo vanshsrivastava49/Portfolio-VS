@@ -79,8 +79,7 @@ export const TechStack = () => {
 	return (
 		<section
 			className='tech-stack'
-			id='tech-stack'
-		>
+			id='tech-stack'>
 			<div className='tech-grid'>
 				{techs.map((tech, index) => (
 					<div key={index}>
