@@ -96,3 +96,17 @@
 .floating-btn.fourth > span {
 	background-color: var(--accentHi);
 }
+@media screen and (max-width: 700px) {
+	.floating-btn {
+		width: 120px;
+	}
+	.floating-btn div {
+		width: 120px;
+		height: 40px;
+		font-size: 0.8rem;
+	}
+	.floating-btn span {
+		width: 80px;
+		height: 40px;
+	}
+}

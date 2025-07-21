@@ -55,7 +55,7 @@ export const Projects = () => {
   return (
     <section className="projects-section" id="projects">
       <div>
-        <SectionTitle title="Dev" subTitle="Work" />
+        <SectionTitle title="My" subTitle="Work" />
       </div>
       <div className="projects-grid">
         {projects.map((projectGroup, index) => (

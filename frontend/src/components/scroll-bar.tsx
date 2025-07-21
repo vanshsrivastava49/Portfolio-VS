@@ -16,7 +16,7 @@ export const ScrollBar = () => {
 
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
-		}; // Cleanup on unmount
+		};
 	}, []);
 	return (
 		<div
