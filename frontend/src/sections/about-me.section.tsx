@@ -7,7 +7,7 @@ const timeline = [
 			{
 				title: 'Research Intern',
 				place: 'Samsung R&D Institute India',
-				timePeriod: '2024 - Present',
+				timePeriod: '2025 - Present',
 				description: (
 					<ul>
 						<li>
