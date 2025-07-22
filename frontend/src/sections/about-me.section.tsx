@@ -62,11 +62,10 @@ export const AboutMe = () => {
 			<div>
 				<div className='intro'>
 					<p style={{ marginTop: '20px' }}>
-						👋 Hey, I'm Vansh Srivastava, a Full Stack Developer.
+						Hey, I'm Vansh Srivastava, a Full Stack Developer.
 					</p>
 					<p>
-						I've been working with <strong>React</strong> and{' '}
-						<strong>Node</strong> for more than <strong>two years</strong>,
+						I've been working with <strong>MERN stack</strong> for more than <strong>two years</strong>,
 						building web applications that are fast, scalable and user-friendly.
 					</p>
 					<p>
