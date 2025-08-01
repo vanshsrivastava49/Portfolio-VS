@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaAirbnb } from 'react-icons/fa';
 import { GlowBox } from '../components/glow-box';
 import { SectionTitle } from '../components/section-title.component';
 
@@ -8,7 +8,7 @@ const projects = [
     items: [
       {
         title: 'ParkMate',
-        icon: <FaGithub color="white" />,
+        icon: <FaAirbnb color="white" />,
         color: 'rgba(74, 127, 232, 0.4)',
         link: 'https://github.com/vanshsrivastava49/ParkMate',
       },

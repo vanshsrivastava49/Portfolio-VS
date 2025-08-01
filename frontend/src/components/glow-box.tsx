@@ -23,12 +23,7 @@ export const GlowBox = ({ color, icon, title, link }: TGlowBox) => {
   );
 
   return link ? (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ textDecoration: 'none', color: 'inherit' }}
-    >
+    <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
       {content}
     </a>
   ) : (
