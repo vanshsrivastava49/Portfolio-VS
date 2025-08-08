@@ -61,6 +61,11 @@ export const AboutMe = () => {
 			</div>
 			<div>
 				<div className='intro'>
+					<img
+					src='./vansh.png' // Replace with your image path
+					alt='Vansh Srivastava'
+					style={{
+						width: '180px',height: '180px',borderRadius: '50%',objectFit: 'cover',}}/>
 					<p style={{ marginTop: '20px' }}>
 						Hey, I'm Vansh Srivastava, a Full Stack Developer.
 					</p>
