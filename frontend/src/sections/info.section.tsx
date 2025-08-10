@@ -12,6 +12,7 @@ export const InfoSection = () => {
 				label='About Me'
 				className='first'
 				href='/#about-me'
+				newTab={false}
 			/>
 			<p>Hi, I am</p>
 			<TextHover
@@ -23,16 +24,19 @@ export const InfoSection = () => {
 				label='Tech'
 				className='sec'
 				href='/#tech-stack'
+				newTab={false}
 			/>
 			<FloatingButton
 			label='Resume'
 			className='third'
 			href='./Vansh_Srivastava_Resume.pdf'
+			newTab={true}
 			/>
 			<FloatingButton
 			label='Projects'
 			className='fourth'
 			href='/#projects'
+			newTab={false}
 			/>
 			<div className='blur'></div>
 			<div className='bottom-bar'>
