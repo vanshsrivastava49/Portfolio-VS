@@ -22,7 +22,7 @@ const projects = [
         title: 'CampusBuzz',
         icon: <FaGithub color="white" />,
         color: 'rgba(239, 197, 59, 0.4)',
-        link: 'https://campushuzz.vercel.app/',
+        link: 'https://campusbuzz.vercel.app/',
       },
       {
         title: 'ESGGuardian',
