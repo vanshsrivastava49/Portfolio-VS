@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { IoMailOutline } from 'react-icons/io5';
+import { SiLeetcode } from 'react-icons/si';
 
 import { FloatingButton } from '../components/floating-button';
 import { GlowLink } from '../components/glow-box-link';
@@ -57,6 +58,12 @@ export const InfoSection = () => {
 					icon={<IoMailOutline color='rgb(18, 122, 209)' />}
 					color=' rgb(18, 122, 209,0.7)'
 					aria-label='mail'
+				/>
+				<GlowLink
+					href='https://leetcode.com/ghapla49/'
+					color='rgba(255, 161, 22, 0.6)'
+					icon={<SiLeetcode color='rgb(255, 161, 22)' />}
+					aria-label='leetcode'
 				/>
 				<GlowLink
 					href='https://www.instagram.com/vanshsrivastava49/'
