@@ -7,10 +7,10 @@ const projects = [
     heading: 'Featured Projects',
     items: [
       {
-        title: 'ParkMate',
+        title: 'GreenJobs',
         icon: <FaAirbnb color="white" />,
         color: 'rgba(74, 127, 232, 0.4)',
-        link: 'https://github.com/vanshsrivastava49/ParkMate',
+        link: 'https://green-jobs-alpha.vercel.app',
       },
       {
         title: 'UniHub',
