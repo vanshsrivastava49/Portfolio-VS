@@ -10,7 +10,7 @@ const projects = [
         title: 'GreenJobs',
         icon: <FaAirbnb color="white" />,
         color: 'rgba(74, 127, 232, 0.4)',
-        link: 'https://green-jobs-alpha.vercel.app',
+        link: 'https://jobs.solarismypassion.com/',
       },
       {
         title: 'UniHub',
@@ -25,10 +25,10 @@ const projects = [
         link: 'https://campushuzz.vercel.app/',
       },
       {
-        title: 'ESGGuardian',
+        title: 'ParkLink',
         icon: <FaGithub color="white" />,
         color: 'rgba(102, 230, 59, 0.4)',
-        link: 'https://github.com/vanshsrivastava49/ESGGuardian',
+        link: 'https://github.com/vanshsrivastava49/ParkLink',
       },
     ],
   },
