@@ -1,7 +1,6 @@
 import { MouseEvent } from 'react';
 import { FaExternalLinkAlt, FaGithub, FaGlobe } from 'react-icons/fa';
 import { SectionTitle } from '../components/section-title.component';
-import './projects.css';
 
 type Project = {
   title: string;
