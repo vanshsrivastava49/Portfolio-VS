@@ -140,7 +140,6 @@ export const Projects = () => {
       <div>
         <SectionTitle title="My" subTitle="Work" />
       </div>
-
       <div className="projects-grid">
         {projects.map((group) => (
           <div key={group.heading} className="projects-group">
